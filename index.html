@@ -12,27 +12,27 @@
 <body>
 
      <!--Header Section-->
-    <header class="header-section">
+    <header class="header-section" id="section-header">
         <div class="signature">
-            <p>Maria J.</p>
+            <a href="/"><p>Maria J.</p></a>
         </div>
 
         <nav>
             <ul>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="#about" id="link-about">About</a>
                 </li>
 
                 <li>
-                    <a href="#skills">Skills</a>
+                    <a href="#skills" id="link-skills">Skills</a>
                 </li>
 
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#projects" id="link-projects">Projects</a>
                 </li>
 
                 <li>
-                    <a href="cv">Cv</a>
+                    <a href="cv" id="link-cv">Cv</a>
                 </li>
 
                 <li>
@@ -112,7 +112,7 @@
 
         <section class="projects-section" id="projects">
           <div class="projects-container">
-               <div>
+               <div class="card-projects">
                   <a href="https://github.com/mariajossdeny/BOG003-card-validation">Card Validation
                        <figure>
                           <svg xmlns="http://www.w3.org/2000/svg" class=" icon-tabler icon-tabler-file-type-html" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -147,7 +147,7 @@
                    </a>   
                </div>
 
-              <div>
+              <div class="card-projects">
                   <a href="https://github.com/mariajossdeny/Front-End-Store">Front-End-Store
                        <figure>
                            <svg xmlns="http://www.w3.org/2000/svg" class=" icon-tabler icon-tabler-file-type-html" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -175,7 +175,7 @@
                    </a>    
                </div>
 
-                <div>
+                <div class="card-projects">
                     <a href="https://github.com/mariajossdeny/BOG003-social-network">Social-Network
                        <figure>
                           <svg xmlns="http://www.w3.org/2000/svg" class=" icon-tabler icon-tabler-file-type-html" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -217,7 +217,7 @@
                    </a>       
                </div>
 
-               <div>
+               <div class="card-projects">
                   <a href="https://github.com/mariajossdeny/BOG003-data-lovers">Data-lovers
                       <figure>
                            <svg xmlns="http://www.w3.org/2000/svg" class=" icon-tabler icon-tabler-file-type-html" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -259,7 +259,7 @@
                    </a> 
                </div>
 
-               <div>
+               <div class="card-projects">
                   <a href="https://github.com/mariajossdeny/store-with-html-and-css">Front-End-Practic
                       <figure>
                           <svg xmlns="http://www.w3.org/2000/svg" class=" icon-tabler icon-tabler-file-type-html" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -288,7 +288,7 @@
 
               </div>
 
-               <div>
+               <div class="card-projects">
                   <a href="https://github.com/mariajossdeny/CODSOFT_Landing">Landing Page
                       <figure>
                           <svg xmlns="http://www.w3.org/2000/svg" class=" icon-tabler icon-tabler-file-type-html" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -316,13 +316,69 @@
                    </a>  
                </div>
           </div>  
+        </section>
 
+        <section class="section-cv" id="cv">
+            <div>
+               <div>
+                  <a href="#cv-img" class="cv-link" id="cv-link">See my Cv</a>
+               </div>
+               <div class="cv-img" id="cv-img">
+                  <img src="img/img-cv.jpg"> 
+               </div>
+           </div>
 
+           <div>
+              <div>
+                <a  href="#links-certificates"  class="certificades-links" id="certificades-links">See my certificates</a>
+              </div>
+              <div class="links-certificates" id="links-certificates">
+                <a href="https://platzi.com/p/maria-jossdeny-chacon-vanegas/curso/1814-basico-javascript/diploma/detalle/">Basico De JavaScript</a>
+                <a href="https://platzi.com/p/maria-jossdeny-chacon-vanegas/curso/2467-frontend-developer/diploma/detalle/">Frontend-Developer</a>
+                <a href="https://platzi.com/p/maria-jossdeny-chacon-vanegas/curso/2292-terminal/diploma/detalle/">Introduccion a la terminal y linea de comandos.</a>
+                <a href="https://platzi.com/p/maria-jossdeny-chacon-vanegas/curso/2477-frontend-developer-practico/diploma/detalle/">Practico de Frontend-Developer</a>
+                <a href="https://platzi.com/p/maria-jossdeny-chacon-vanegas/curso/2477-frontend-developer-practico/diploma/detalle/">Profesional en Git y GitHub</a>
+                <a href="https://www.freecodecamp.org/certification/MariaJossdeny/responsive-web-design">Responsive Web Design</a>
+              </div>
+           </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <figure class="figure-contact">
+                <a href="https://github.com/mariajossdeny">
+                    <svg xmlns="http://www.w3.org/2000/svg" class=" icon-tabler-brand-github" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#73FB07" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                   </svg>
+               </a>
+               <a href="https://www.linkedin.com/in/mariajossdenychaconvanegas">
+                   <svg xmlns="http://www.w3.org/2000/svg" class=" icon-tabler-brand-linkedin" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#73FB07" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                      <path d="M8 11l0 5" />
+                      <path d="M8 8l0 .01" />
+                      <path d="M12 16l0 -5" />
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                  </svg>
+               </a>
+               <a href="mailto:mariajossdeny@gmail.com">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-brand-gmail" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#73FB07" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M16 20h3a1 1 0 0 0 1 -1v-14a1 1 0 0 0 -1 -1h-3v16z" />
+                      <path d="M5 20h3v-16h-3a1 1 0 0 0 -1 1v14a1 1 0 0 0 1 1z" />
+                      <path d="M16 4l-4 4l-4 -4" />
+                      <path d="M4 6.5l8 7.5l8 -7.5" />
+                  </svg>
+               </a>
+           </figure>
 
         </section>
     </main>
+    <footer id="footer-section">
+        <p>Copyright © 2024 Maria J. Chacon V.  All rights reserved.</p>
+    </footer>
 
     
-    
+   <script src="main.js" type="module"></script> 
 </body>
 </html>

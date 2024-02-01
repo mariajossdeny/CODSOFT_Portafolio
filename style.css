@@ -1,18 +1,23 @@
 * {
    margin: 0;
+   
 }
+
+  body {
+    background-image: url("img/backgraund-img.jpg");
+} 
 
 
 /*Header Section*/
 
 .header-section {
-    background-color: blue;
+    /*background-color: blue;*/
     display: flex;
 }
 
-.signature {
+/*.signature {
     background-color: aqua;
-}
+} */
 
 .header-section p {
     font-family: 'Dancing Script', cursive;
@@ -23,7 +28,7 @@
 }
 
 nav {
-    background-color: cadetblue;
+   /* background-color: cadetblue;*/
    /* width: 50%; */
     height: 30%; 
     margin-left: 400px;
@@ -38,12 +43,12 @@ nav ul li {
     padding: 20px 20px 20px 30px;
     font-size: 20px;
     list-style: none;
-    background-color: black; 
+    /*background-color: black; */
     margin-left: -18px;
 }
 
 nav ul li a {
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
     padding: 6px 14px 6px 14px;
     text-decoration: none;
     font-size: 24px;
@@ -57,19 +62,19 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
-main {
+/* main {
     background-color: darkolivegreen;
-}
+} */
 
 /*About-me-section*/
 
 .about-me{ 
-    background-color: yellow;
+   /* background-color: yellow; */
     display: flex;
 }
 
 .description {
-    background-color: antiquewhite;
+   /* background-color: antiquewhite; */
     width: 50%;
     padding: 80px 40px 40px 40px;
 }
@@ -82,7 +87,7 @@ main {
 }
 
 .description p {
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     padding: 20px;
     font-family: 'Comfortaa', sans-serif;
     margin-top: 10px;
@@ -90,18 +95,18 @@ main {
 }
 
 .logo{
-    background-color: brown;
+     /* background-color: brown; */
     padding-left: 80px;
 }
 
 .icon {
-    background-color: chocolate;
+     /* background-color: chocolate; */
     padding: 4px 6px 2px 6px; 
     margin-left: 8px;
 }
 
 .img-profile {
-    background-color: coral;
+   /*  background-color: coral; */
     width: 320px;
     height: 320px;
     display: flex;
@@ -121,19 +126,20 @@ main {
 /* Skills Section */
 
 .skills-section {
-    background-color: deeppink;  
+     /* background-color: deeppink;  */
     width: 100%;
     height: 100%;
 }
 
 .soft-skills {
-    background-color: teal;
+     /* background-color: teal; */
     display: flex;
     
 }
 
 .soft-skills h1 {
-    background-color: violet;
+   /*  background-color: violet; */
+   color: #FFFFFF;
     font-size: 70px;
     margin-left: 200px;
     display: flex;
@@ -142,7 +148,7 @@ main {
 }
 
 .soft-skills li {
-    background-color: burlywood;
+   /*  background-color: burlywood; */
     font-size: 22px;
     margin-left: 300px;
     margin-top: 10px;
@@ -152,12 +158,13 @@ main {
 }
 
 .technical-skills {
-    background-color: tomato;
+   /*  background-color: tomato; */
     display: flex;
 }
 
 .technical-skills h1 {
-    background-color: yellowgreen;
+   /* background-color: yellowgreen; */
+   color: #FFFFFF;
     font-size: 70px;
     margin-left: 200px;
     display: flex;
@@ -166,7 +173,7 @@ main {
 }
 
 .technical-skills ul {
-    background-color: skyblue;
+     /* background-color: skyblue; */ 
     margin-top: 8px;
     padding-top: 14px;
     padding-right: 8px;
@@ -175,7 +182,7 @@ main {
 
 
 .technical-skills li {
-    background-color: springgreen;
+    /*  background-color: springgreen; */
     font-size: 22px;
     margin-left: 300px;
     margin-top: 10px;
@@ -187,11 +194,150 @@ main {
 /* Project Section */
 
 .projects-section {
-    background-color: slateblue;
+     /* background-color: slateblue; */ 
 }
 
 .projects-container {
-    background-color: turquoise;
-    display: flex;
+     /* background-color: turquoise; */ 
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap:100px;
+    place-content: center;
+    padding: 60px; 
+    
+   /* row-gap: 100px;
+    grid-template-columns: repeat(auto-fill, 240);
+    padding: 10px; 
+    padding-left: 10px; */
+
+}
+
+.card-projects {
+    background-color:#FFFFFF;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 10px;
+
+   /* height: 100px;
+    margin-left: 60px;
+    margin-top: 60px; */
+
+}
+
+.card-projects:hover {
+    border: 2px solid #73FB07;
     
 }
+
+.card-projects a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Comfortaa', sans-serif;  
+}
+
+.card-projects a:hover {
+    color: #73FB07;
+    font-weight: bold;
+}
+
+.icon-tabler {
+    padding-top: 14px;
+} 
+
+/* section cv */
+
+.section-cv {
+   /*  background-color: blanchedalmond; */ 
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 500px;
+    padding: 200px;
+    
+}
+
+.cv-link, .certificades-links {
+    /*  background-color: crimson; */ 
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 12px 10px 12px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;  
+}
+
+.cv-link:hover, .certificades-links:hover {
+    border: 2px solid #73FB07;
+    border-radius: 10px;
+    color: #73FB07;
+}
+
+.cv-img {
+   /* background-color: thistle; */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding-top: 50px;
+    padding-bottom: 700px;
+    display: none;
+}
+
+
+
+
+
+.links-certificates {
+   /*  background-color: slateblue; */
+    margin-top: 50px;
+    display:none;
+}
+
+.links-certificates a {
+    /*  background-color: yellow; */
+    color: #FFFFFF;
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+}
+
+ .links-certificates a:hover {
+    border: 2px solid #73FB07;
+    border-radius: 10px;
+    color: #73FB07;
+} 
+
+/* Contact section */
+
+.contact {
+  /*   background-color: sienna; */ 
+    padding: 200px 20px 200px 500px;
+}
+
+/* footer section */
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: #FFFFFF;
+    padding: 20px;
+    font-weight: lighter;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 10px;
+    margin-left: 450px;
+}
+
+
+
+
+
+
+
+
+
