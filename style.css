@@ -90,6 +90,10 @@ nav ul li a:hover {
     padding-left: 80px;
 }
 
+.logo a{
+    text-decoration: none;
+}
+
 .icon {
     padding: 4px 6px 2px 6px; 
     margin-left: 8px;
@@ -275,6 +279,10 @@ nav ul li a:hover {
 
 .contact {
     padding: 200px 20px 200px 500px;
+}
+
+.figure-contact a{
+    text-decoration: none;
 }
 
 
