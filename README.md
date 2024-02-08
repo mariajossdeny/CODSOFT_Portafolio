@@ -13,9 +13,8 @@ I wanted to make this portfolio with a modern and minimalist theme, without leav
 [![page 4 and 5](img/page4and5.jpeg "page 4 and 5")](https://github.com/mariajossdeny/CODSOFT_Portafolio/blob/main/img/page4and5.jpeg "page 4 and 5")
 
 ####  High fidelity design. 
-[[1]High fidelity design.][1]
 
-[1]: (https://www.figma.com/file/HH4UQbHP4BPtjSO7ArKsuj/Untitled?type=design&node-id=0-1&mode=design&t=gt5URrXfV09nzrRS-0) "high fidelity design."
+[1]: https://www.figma.com/file/HH4UQbHP4BPtjSO7ArKsuj/Untitled?type=design&node-id=0-1&mode=design&t=gt5URrXfV09nzrRS-0 "high fidelity design."
 
 #### Criteria
 Here we work with Html, CSS and JavaScript.
